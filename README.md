@@ -39,7 +39,8 @@ Welcome to my DevOps portfolio! This repository showcases a collection of sample
 ├── scripts/
 │ └── cleanup.sh
 ├── cicd/
-│ └── github-actions-demo.yml
+│   ├── github-actions-demo.yml
+│   └── jenkins-pipeline.groovy
 └── README.md
 ```
 
