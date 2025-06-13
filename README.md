@@ -27,6 +27,10 @@ Welcome to my DevOps portfolio! This repository showcases a collection of sample
 │   └── cleanup.sh
 ├── cicd/
 │   └── github-actions-demo.yml
+├── prometheus/
+│   ├── prometheus-configmap.yaml
+│   ├── prometheus-deployment.yaml
+│   └── prometheus-service.yaml
 └── README.md
 ```
 
@@ -40,7 +44,7 @@ This repository was created as part of my ongoing DevOps learning and hands-on p
 - Core Kubernetes concepts  
 - Infrastructure provisioning with Terraform  
 - Basic CI/CD pipeline setup  
-- Monitoring and logging integrations  
+- Monitoring and logging integrations, including Prometheus    
 
 ---
 
