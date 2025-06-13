@@ -18,19 +18,24 @@ Welcome to my DevOps portfolio! This repository showcases a collection of sample
 
 ## 📁 Repo Structure
 ```
-├── kubernetes/
-│   ├── nginx-deployment.yaml
-│   └── configmap-example.yaml
+├├── kubernetes/
+│   ├── nginx-deployment.yaml
+│   ├── configmap-example.yaml
+│   ├── readiness-probe.yaml
+│   ├── liveness-probe.yaml
+│   └── helm-chart-demo/
+│       ├── Chart.yaml
+│       └── templates/
 ├── terraform/
-│   └── aws-ec2.tf
+│   └── aws-ec2.tf
 ├── scripts/
-│   └── cleanup.sh
+│   └── cleanup.sh
 ├── cicd/
-│   └── github-actions-demo.yml
+│   └── github-actions-demo.yml
 ├── prometheus/
-│   ├── prometheus-configmap.yaml
-│   ├── prometheus-deployment.yaml
-│   └── prometheus-service.yaml
+│   ├── prometheus-configmap.yaml
+│   ├── prometheus-deployment.yaml
+│   └── prometheus-service.yaml
 └── README.md
 ```
 
