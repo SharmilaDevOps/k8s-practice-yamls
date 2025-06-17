@@ -30,11 +30,10 @@ Welcome to my DevOps portfolio! This repository showcases a collection of sample
 │ ├── deployment.yaml
 │ ├── service.yaml
 │ └── _helpers.tpl
-├── prometheus/
+├── monitoring/
 │ ├── prometheus-configmap.yaml
 │ ├── prometheus-deployment.yaml
 │ └── prometheus-service.yaml
-├── grafana/
 │ ├── grafana-dashboard.json
 │ └── grafana-deployment.yaml
 ├── terraform/
