@@ -16,35 +16,35 @@ Welcome to my DevOps portfolio! This repository showcases a collection of sample
 
 ---
 
-## 📁 Repo Structure
-```
 ├── kubernetes/
-│ ├── nginx-deployment.yaml
-│ ├── configmap-example.yaml
-│ ├── readiness-probe.yaml
-│ ├── liveness-probe.yaml
-│ └── helm-chart-demo/
-│ ├── Chart.yaml
-│ ├── values.yaml
-│ └── templates/
-│ ├── deployment.yaml
-│ ├── service.yaml
-│ └── _helpers.tpl
+│   ├── nginx-deployment.yaml
+│   ├── configmap-example.yaml
+│   ├── readiness-probe.yaml
+│   ├── liveness-probe.yaml
+│   └── helm-chart-demo/
+│       ├── Chart.yaml
+│       ├── values.yaml
+│       └── templates/
+│           ├── deployment.yaml
+│           ├── service.yaml
+│           └── _helpers.tpl
 ├── monitoring/
-│ ├── prometheus-configmap.yaml
-│ ├── prometheus-deployment.yaml
-│ └── prometheus-service.yaml
-│ ├── grafana-dashboard.json
-│ └── grafana-deployment.yaml
+│   ├── prometheus-configmap.yaml
+│   ├── prometheus-deployment.yaml
+│   ├── prometheus-service.yaml
+│   ├── grafana-dashboard.json
+│   ├── grafana-deployment.yaml
+│   └── grafana-dashboard-configmap.yaml
 ├── terraform/
-│ └── aws-ec2.tf
+│   └── aws-ec2.tf
 ├── scripts/
-│ └── cleanup.sh
+│   └── cleanup.sh
 ├── cicd/
-│ ├── github-actions-demo.yml
-│ └── jenkins-pipeline.groovy
-├── Jenkinsfile # Optional: rename jenkins-pipeline.groovy and move here for automatic Jenkins detection
+│   ├── github-actions-demo.yml
+│   └── jenkins-pipeline.groovy
+├── Jenkinsfile               # Optional: Move/rename groovy file here for auto Jenkins detection
 └── README.md
+
 ```
 
 
