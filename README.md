@@ -57,6 +57,15 @@ This repository was created as part of my ongoing DevOps learning and hands-on p
 - Monitoring and logging integrations, including Prometheus    
 
 ---
+---
+
+## 📂 Folder Descriptions
+
+- **kubernetes/** – Core Kubernetes YAMLs, including deployment, configmaps, probes, and a Helm demo
+- **terraform/** – Infrastructure-as-Code samples for provisioning AWS EC2 instances (with future potential for EKS)
+- **prometheus/** – Setup files for Prometheus monitoring on Kubernetes
+- **cicd/** – GitHub Actions CI/CD pipeline examples
+- **scripts/** – Utility shell scripts for clean-up or automation
 
 > ⚠️ Note: This repo is for educational and demonstration purposes only. It does not include any proprietary or production code.
 
