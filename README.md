@@ -34,13 +34,17 @@ Welcome to my DevOps portfolio! This repository showcases a collection of sample
 │ ├── prometheus-configmap.yaml
 │ ├── prometheus-deployment.yaml
 │ └── prometheus-service.yaml
+├── grafana/
+│ ├── grafana-dashboard.json
+│ └── grafana-deployment.yaml
 ├── terraform/
 │ └── aws-ec2.tf
 ├── scripts/
 │ └── cleanup.sh
 ├── cicd/
-│   ├── github-actions-demo.yml
-│   └── jenkins-pipeline.groovy
+│ ├── github-actions-demo.yml
+│ └── jenkins-pipeline.groovy
+├── Jenkinsfile # Optional: rename jenkins-pipeline.groovy and move here for automatic Jenkins detection
 └── README.md
 ```
 
@@ -68,4 +72,24 @@ This repository was created as part of my ongoing DevOps learning and hands-on p
 - **scripts/** – Utility shell scripts for clean-up or automation
 
 > ⚠️ Note: This repo is for educational and demonstration purposes only. It does not include any proprietary or production code.
+
+---
+
+## 🚀 How to Use
+
+- **Kubernetes configs:**  
+  Apply with `kubectl apply -f kubernetes/`
+
+- **Helm chart demo:**  
+  Deploy with `helm install demo-chart ./kubernetes/helm-chart-demo`
+
+- **Prometheus and Grafana:**  
+  Deploy Prometheus with `kubectl apply -f prometheus/`  
+  Deploy Grafana with `kubectl apply -f grafana/` and import dashboard JSON
+
+- **Terraform:**  
+  Initialize and apply with:  
+terraform init
+terraform apply
+
 
